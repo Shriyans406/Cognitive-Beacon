@@ -4,6 +4,9 @@ import asyncio
 from fastapi import FastAPI, BackgroundTasks
 from google import genai
 from serial_worker import SerialWorker
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = FastAPI()
 
